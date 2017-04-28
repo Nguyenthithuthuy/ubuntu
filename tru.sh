@@ -1,6 +1,8 @@
-echo "nhap a: "
+echo " chuong trinh tru 2 so a va b "
+echo -n "a="
 read a
-echo "nhap b: "
+echo -n "b="
 read b
-let " c= $a - $b "
-echo $c
+echo " ket qua cua chuong trinh la:"
+expr $a - $b 
+
