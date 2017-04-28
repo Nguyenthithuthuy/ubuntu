@@ -1,6 +1,8 @@
-echo "nhap a: "
+clear 
+echo " chuong trinh tinh tong 2 so a va b"
+echo n " a= "
 read a
-echo "nhap b: "
+echo  n " b = "
 read b
-let " c= $a + $b "
-echo $c 
+echo " ket qua la: "
+expr $a + $b 
